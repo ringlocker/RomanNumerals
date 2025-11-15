@@ -1,7 +1,6 @@
 package com.github.ringlocker.romannumerals.mixin.client;
 
 import com.github.ringlocker.romannumerals.RomanNumeral;
-import com.github.ringlocker.romannumerals.RomanNumerals;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.screens.inventory.EffectsInInventory;
