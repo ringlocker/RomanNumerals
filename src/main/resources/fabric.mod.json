@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "romannumerals",
+  "version": "${version}",
+  "name": "RomanNumerals",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/romannumerals/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.ringlocker.romannumerals.client.RomanNumeralsClient"
+    ],
+    "main": [
+      "com.github.ringlocker.romannumerals.RomanNumerals"
+    ]
+  },
+  "mixins": [
+    "romannumerals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
